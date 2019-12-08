@@ -1,0 +1,11 @@
+[package]
+name = "intl"
+description = "They see me squattin', they hatin'"
+version = "0.0.0"
+authors = ["Brendan Molloy <brendan@bbqsrc.net>"]
+edition = "2018"
+license = "Apache-2.0 OR MIT"
+
+[dependencies]
+language-tags = "0.2.2"
+winapi = { version = "0.3", features = ["winnls"] }
